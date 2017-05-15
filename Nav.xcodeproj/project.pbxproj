@@ -14,6 +14,7 @@
 		183CFCFF1EC98D670012060F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183CFCFD1EC98D670012060F /* LaunchScreen.storyboard */; };
 		183CFD0A1EC98D670012060F /* NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD091EC98D670012060F /* NavTests.swift */; };
 		183CFD151EC98D670012060F /* NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD141EC98D670012060F /* NavUITests.swift */; };
+		183CFD231EC9957B0012060F /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD221EC9957B0012060F /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		183CFD101EC98D670012060F /* NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CFD141EC98D670012060F /* NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUITests.swift; sourceTree = "<group>"; };
 		183CFD161EC98D670012060F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183CFD221EC9957B0012060F /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				183CFCF41EC98D670012060F /* AppDelegate.swift */,
 				183CFCF61EC98D670012060F /* ViewController.swift */,
+				183CFD221EC9957B0012060F /* OtherViewController.swift */,
 				183CFCF81EC98D670012060F /* Main.storyboard */,
 				183CFCFB1EC98D670012060F /* Assets.xcassets */,
 				183CFCFD1EC98D670012060F /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183CFCF71EC98D670012060F /* ViewController.swift in Sources */,
+				183CFD231EC9957B0012060F /* OtherViewController.swift in Sources */,
 				183CFCF51EC98D670012060F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

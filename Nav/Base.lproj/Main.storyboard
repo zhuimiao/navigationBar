@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="1188" y="790.25487256371821"/>
         </scene>
-        <!--View Controller-->
+        <!--Other View Controller-->
         <scene sceneID="hWP-Yb-Xie">
             <objects>
-                <viewController id="KKc-Il-tL0" sceneMemberID="viewController">
+                <viewController id="KKc-Il-tL0" customClass="OtherViewController" customModule="Nav" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S8c-Nj-8eD"/>
                         <viewControllerLayoutGuide type="bottom" id="aqA-tA-sg2"/>
