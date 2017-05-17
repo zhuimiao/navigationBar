@@ -254,6 +254,10 @@ push 时截屏
 效果：
 
 ![nav3.0w400](media/nav3.0.gif)
+git 导出命令：
 
+```dash
+git archive --format=zip --output=v3.0.zip 3.0
+```
     
 
