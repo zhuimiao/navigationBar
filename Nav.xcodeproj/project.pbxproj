@@ -15,6 +15,7 @@
 		183CFD0A1EC98D670012060F /* NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD091EC98D670012060F /* NavTests.swift */; };
 		183CFD151EC98D670012060F /* NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD141EC98D670012060F /* NavUITests.swift */; };
 		183CFD231EC9957B0012060F /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD221EC9957B0012060F /* OtherViewController.swift */; };
+		183CFD251EC9A53E0012060F /* HHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFD241EC9A53E0012060F /* HHNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		183CFD141EC98D670012060F /* NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUITests.swift; sourceTree = "<group>"; };
 		183CFD161EC98D670012060F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183CFD221EC9957B0012060F /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		183CFD241EC9A53E0012060F /* HHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				183CFCF41EC98D670012060F /* AppDelegate.swift */,
 				183CFCF61EC98D670012060F /* ViewController.swift */,
+				183CFD241EC9A53E0012060F /* HHNavigationController.swift */,
 				183CFD221EC9957B0012060F /* OtherViewController.swift */,
 				183CFCF81EC98D670012060F /* Main.storyboard */,
 				183CFCFB1EC98D670012060F /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				183CFCF71EC98D670012060F /* ViewController.swift in Sources */,
 				183CFD231EC9957B0012060F /* OtherViewController.swift in Sources */,
 				183CFCF51EC98D670012060F /* AppDelegate.swift in Sources */,
+				183CFD251EC9A53E0012060F /* HHNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +513,7 @@
 				183CFD181EC98D670012060F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		183CFD191EC98D670012060F /* Build configuration list for PBXNativeTarget "Nav" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +522,7 @@
 				183CFD1B1EC98D670012060F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		183CFD1C1EC98D670012060F /* Build configuration list for PBXNativeTarget "NavTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				183CFD1E1EC98D670012060F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		183CFD1F1EC98D670012060F /* Build configuration list for PBXNativeTarget "NavUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				183CFD211EC98D670012060F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

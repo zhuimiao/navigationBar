@@ -9,7 +9,7 @@
 import UIKit
 
 // 遵守协议
-class OtherViewController: UIViewController,UIGestureRecognizerDelegate {
+class OtherViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +24,6 @@ class OtherViewController: UIViewController,UIGestureRecognizerDelegate {
         self.navigationItem.leftBarButtonItems = [spaceItem,leftBarButtonItem]
         
         // 设置代理
-        self.navigationController?.interactivePopGestureRecognizer?.delegate = self;
-
     }
     
     func leftBtnAction(btn: UIButton) {
